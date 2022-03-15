@@ -33,7 +33,8 @@ file_Sorted.close()
 def word_count(fname):
         with open(fname) as f:
                 return Counter(f.read().split())
-            
+
+
 file_Sorted2 = open("DiccionarioTokens", "w+", encoding='utf-8', errors='ignore')
 Counter2=word_count("DiccionarioCompleto")
 

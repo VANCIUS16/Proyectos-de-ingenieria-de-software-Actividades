@@ -30,3 +30,5 @@ for w in words_Sorted:
 file_Sorted.close()
 End = time.time()
 log_diccionario.write("Tiempo total: " + str(End - Start))
+
+
